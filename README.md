@@ -1,6 +1,6 @@
 # FAEP
 
-**FAEP** is a nove fast autonomous exploration planner based on the framework of [FUEL](https://ieeexplore.ieee.org/abstract/document/9324988). It contains a comprehensive exploration sequence generation method for global tour planning, which not only considers the flight-level factors but also innovatively considers the frontier-level factors to reduce the back-and-forth maneuvers. In addition, an adaptive yaw planning strategy is designed to achieve efficient exploration by yaw change during flight.  
+**FAEP** is a nove fast autonomous exploration planner based on the framework of FUEL [Paper](https://ieeexplore.ieee.org/abstract/document/9324988) [Code](https://github.com/HKUST-Aerial-Robotics/FUEL). It contains a comprehensive exploration sequence generation method for global tour planning, which not only considers the flight-level factors but also innovatively considers the frontier-level factors to reduce the back-and-forth maneuvers. In addition, an adaptive yaw planning strategy is designed to achieve efficient exploration by yaw change during flight.  
 Our method is demonstrated to reduce the flight time and flight distance by more than 20% compared with the state-of-the-art approache FUEL.
 
 <p align="center">
@@ -40,7 +40,7 @@ After successful installation, in the **local_sensing** package in **uav_simulat
 
 ```
   set(CUDA_NVCC_FLAGS 
-    -gencode arch=compute_61,code=sm_61;
+    -gencode arch=compute_75,code=sm_75;
   ) 
 ```
 
@@ -62,8 +62,8 @@ and start a simulation (run in a new terminals):
 ```
   source devel/setup.bash && roslaunch exploration_manager exploration.launch
 ```
-You will find a cluttered scene to be explored (20m x 12m x 2m) and the drone in ```Rviz```. You can trigger the exploration to start by the ```2D Nav Goal``` tool. A sample simulation is shown in the figure. The unknown obstacles are shown in grey, while the frontiers are shown as colorful voxels. The planned and executed trajectories are also displayed.
+You will find a office scene to be explored (30m x 16m x 2m) and the drone in ```Rviz```. You can trigger the exploration to start by the ```2D Nav Goal``` tool. A sample simulation is shown in the figure. The unknown obstacles are shown in grey, while the frontiers are shown as colorful voxels. The planned and executed trajectories are also displayed.
 
 
 ## Acknowledgements
-  We use **NLopt** for non-linear optimization and use **LKH** for travelling salesman problem.
+  Our code is developed based on [FUEL](https://github.com/HKUST-Aerial-Robotics/FUEL). We use **NLopt** for non-linear optimization and use **LKH** for travelling salesman problem.
