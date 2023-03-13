@@ -62,7 +62,7 @@ and start a simulation (run in a new terminals):
 ```
   source devel/setup.bash && roslaunch exploration_manager exploration.launch
 ```
-You will find a office scene to be explored (30m x 16m x 2m) and the drone in ```Rviz```. You can trigger the exploration to start by the ```2D Nav Goal``` tool. A sample simulation is shown in the figure. The unknown obstacles are shown in grey, while the frontiers are shown as colorful voxels. The planned and executed trajectories are also displayed.
+You will find a office scene to be explored (16m x 30m x 2m) and the drone in ```Rviz```. You can trigger the exploration to start by the ```2D Nav Goal``` tool. A sample simulation is shown in the figure. The unknown obstacles are shown in grey, while the frontiers are shown as colorful voxels. The planned and executed trajectories are also displayed.
 
 
 ## Acknowledgements
