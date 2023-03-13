@@ -369,10 +369,7 @@ namespace fast_planner
 
     cmd.yaw = yaw;
     cmd.yaw_dot = yawdot;
-    // if(vel.norm() > 2)
-    //   cout << bold << red << "vel: "<< vel.norm() << reset << endl;
-    if(yawdot > 1.2)
-      cout<< bold << red << "yawdot: " << yawdot << reset << endl;
+
     if(traj_cmd_.size() > 0 && (pos - traj_cmd_.back()).norm() > 0.5)
       cout<< bold << red << "traj error: " << (pos - traj_cmd_.back()).norm() << reset << endl;
 
