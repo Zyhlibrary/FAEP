@@ -16,7 +16,7 @@ find_package(catkin REQUIRED COMPONENTS
   plan_env
   active_perception
   cv_bridge
-  # nlopt
+  nlopt
 )
 
 catkin_package(
@@ -39,6 +39,6 @@ add_library( bspline_opt
     )
 target_link_libraries( bspline_opt
     ${catkin_LIBRARIES} 
-    /usr/lib/x86_64-linux-gnu/libnlopt.so
+    # /usr/lib/x86_64-linux-gnu/libnlopt.so
     # /usr/local/lib/libnlopt.so
     )  

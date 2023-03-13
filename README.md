@@ -1,6 +1,6 @@
 # FAEP
 
-**FAEP** is a nove fast autonomous exploration planner based on the framework of FUEL. It contains a comprehensive exploration sequence generation method for global tour planning, which not only considers the flight-level factors but also innovatively considers the frontier-level factors to reduce the back-and-forth maneuvers. In addition, an adaptive yaw planning strategy is designed to achieve efficient exploration by yaw change during flight.  
+**FAEP** is a nove fast autonomous exploration planner based on the framework of [FUEL](https://ieeexplore.ieee.org/abstract/document/9324988). It contains a comprehensive exploration sequence generation method for global tour planning, which not only considers the flight-level factors but also innovatively considers the frontier-level factors to reduce the back-and-forth maneuvers. In addition, an adaptive yaw planning strategy is designed to achieve efficient exploration by yaw change during flight.  
 Our method is demonstrated to reduce the flight time and flight distance by more than 20% compared with the state-of-the-art approache FUEL.
 
 <p align="center">
@@ -31,7 +31,7 @@ This project is mostly based on [FUEL](https://github.com/HKUST-Aerial-Robotics/
 It has been tested on Ubuntu 16.04(ROS Kinetic) and 18.04(ROS Melodic). Take Ubuntu 18.04 as an example, run the following commands to setup:
 
 ```
-  sudo apt-get install libarmadillo-dev ros-melodic-nlopt
+  sudo apt-get install libarmadillo-dev ros-melodic-nlopt libdw-dev
 ```
 
 To simulate the depth camera, we use a simulator based on CUDA Toolkit. Please install it first following the [instruction of CUDA](https://developer.nvidia.com/zh-cn/cuda-toolkit). 
