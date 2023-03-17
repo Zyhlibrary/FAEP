@@ -34,7 +34,7 @@ It has been tested on Ubuntu 16.04(ROS Kinetic) and 18.04(ROS Melodic). Take Ubu
   sudo apt-get install libarmadillo-dev ros-melodic-nlopt libdw-dev
 ```
 
-#Important for simulation experiments!!! If set incorrectly, obstacles data wiil not be acquired!!!
+# Important for simulation experiments!!! If set incorrectly, obstacles data wiil not be acquired!!!
 
 To simulate the depth camera, we use a simulator based on CUDA Toolkit. Please install it first following the [instruction of CUDA](https://developer.nvidia.com/zh-cn/cuda-toolkit). 
 
