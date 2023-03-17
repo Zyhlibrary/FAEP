@@ -34,10 +34,11 @@ It has been tested on Ubuntu 16.04(ROS Kinetic) and 18.04(ROS Melodic). Take Ubu
   sudo apt-get install libarmadillo-dev ros-melodic-nlopt libdw-dev
 ```
 
-**Important for simulation experiments!!! If set incorrectly, obstacles data wiil not be acquired!!!**
+#Important for simulation experiments!!! If set incorrectly, obstacles data wiil not be acquired!!!
+
 To simulate the depth camera, we use a simulator based on CUDA Toolkit. Please install it first following the [instruction of CUDA](https://developer.nvidia.com/zh-cn/cuda-toolkit). 
 
-After successful installation, in the **local_sensing** package in **uav_simulator**, **remember to change the 'arch' and 'code' flags in CMakelist.txt according to your graphics card devices.** You can check the right code [here](https://github.com/tpruvot/ccminer/wiki/Compatibility). For example:
+After successful installation, in the **local_sensing** package in **uav_simulator**, remember to **change the 'arch' and 'code' flags in CMakelist.txt according to your graphics card devices.** You can check the right code [here](https://github.com/tpruvot/ccminer/wiki/Compatibility). For example:
 
 ```
   set(CUDA_NVCC_FLAGS 
