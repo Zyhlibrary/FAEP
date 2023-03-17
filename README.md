@@ -8,7 +8,7 @@ Our method is demonstrated to reduce the flight time and flight distance by more
   <img src="files/2.gif" width = "400" height = "225"/>
 </p>
 
-Complete videos (include simulation experiments and real-world experiments): [video1](https://www.youtube.com/watch?v=0Y671mEwJ_A).
+Complete videos (include simulation experiments and real-world experiments): [video](https://www.youtube.com/watch?v=0Y671mEwJ_A).
 
 Our paper is currently under review by the journal, but the **pre-print version** of our paper is available to the public in the **arXiv**. Please cite our paper if you use this project in your research:
 - [Autonomous Exploration Method for Fast Unknown Environment Mapping by Using UAV Equipped with Limited FOV Sensor](https://arxiv.org/abs/2302.02293), Yinghao Zhao, Li Yan, Hong Xie, Jicheng Dai, Pengcheng Wei.
