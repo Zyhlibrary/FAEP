@@ -6,7 +6,6 @@ Our method is demonstrated to reduce the flight time and flight distance by more
 <p align="center">
   <img src="files/1.gif" width = "400" height = "225"/>
   <img src="files/2.gif" width = "400" height = "225"/>
-  <img src="files/3.gif" width = "400" height = "225"/>
 </p>
 
 Complete videos (include simulation experiments and real-world experiments): [video](https://www.youtube.com/watch?v=0Y671mEwJ_A).
