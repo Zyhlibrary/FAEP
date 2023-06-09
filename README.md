@@ -1,6 +1,6 @@
 # FAEP
 
-**FAEP** is a nove fast autonomous exploration planner based on the framework of FUEL [Paper](https://ieeexplore.ieee.org/abstract/document/9324988) [Code](https://github.com/HKUST-Aerial-Robotics/FUEL). It contains a comprehensive exploration sequence generation method for global tour planning, which not only considers the flight-level factors but also innovatively considers the frontier-level factors to reduce the back-and-forth maneuvers. In addition, an adaptive yaw planning strategy is designed to achieve efficient exploration by yaw change during flight.  
+[**FAEP**](https://arxiv.org/abs/2302.02293) is a nove fast autonomous exploration planner based on the framework of [FUEL](https://ieeexplore.ieee.org/abstract/document/9324988). It contains a comprehensive exploration sequence generation method for global tour planning, which not only considers the flight-level factors but also innovatively considers the frontier-level factors to reduce the back-and-forth maneuvers. In addition, an adaptive yaw planning strategy is designed to achieve efficient exploration by yaw change during flight.  
 Our method is demonstrated to reduce the flight time and flight distance by more than 20% compared with the state-of-the-art approache FUEL.
 
 <p align="center">
@@ -10,7 +10,7 @@ Our method is demonstrated to reduce the flight time and flight distance by more
 
 Complete videos (include simulation experiments and real-world experiments): [video](https://www.youtube.com/watch?v=0Y671mEwJ_A).
 
-Our paper is currently **under review** by journal, but the **pre-print version** of our paper is available to the public in the **arXiv**. Please cite our paper if you use this project in your research:
+Our paper is currently **accepted** by IEEE Transactions on Industrial Electronics, and the **pre-print version** of our paper is available to the public in the **arXiv**. Please cite our paper if you use this project in your research:
 - [Autonomous Exploration Method for Fast Unknown Environment Mapping by Using UAV Equipped with Limited FOV Sensor](https://arxiv.org/abs/2302.02293), Yinghao Zhao, Li Yan, Hong Xie, Jicheng Dai, Pengcheng Wei.
 
 ```

@@ -865,6 +865,7 @@ namespace fast_planner
   int KinodynamicAstar::timeToIndex(double time)
   {
     int idx = floor((time - time_origin_) * inv_time_resolution_);
+    return idx;
   }
 
   void KinodynamicAstar::stateTransit(Eigen::Matrix<double, 6, 1> &state0,
