@@ -1,0 +1,34 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/zyh/zyh/code/FAEP/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/zyh/zyh/code/FAEP/src/FAEP/faep_planner/active_perception/include/**",
+        "/home/zyh/zyh/code/FAEP/src/FAEP/faep_planner/bspline/include/**",
+        "/home/zyh/zyh/code/FAEP/src/FAEP/faep_planner/bspline_opt/include/**",
+        "/home/zyh/zyh/code/FAEP/src/FAEP/faep_planner/exploration_manager/include/**",
+        "/home/zyh/zyh/code/FAEP/src/FAEP/faep_planner/utils/lkh_tsp_solver/include/**",
+        "/home/zyh/zyh/code/FAEP/src/FAEP/uav_simulator/Utils/multi_map_server/include/**",
+        "/home/zyh/zyh/code/FAEP/src/FAEP/faep_planner/path_searching/include/**",
+        "/home/zyh/zyh/code/FAEP/src/FAEP/faep_planner/plan_env/include/**",
+        "/home/zyh/zyh/code/FAEP/src/FAEP/faep_planner/plan_manage/include/**",
+        "/home/zyh/zyh/code/FAEP/src/FAEP/faep_planner/poly_traj/include/**",
+        "/home/zyh/zyh/code/FAEP/src/FAEP/uav_simulator/Utils/pose_utils/include/**",
+        "/home/zyh/zyh/code/FAEP/src/FAEP/uav_simulator/Utils/quadrotor_msgs/include/**",
+        "/home/zyh/zyh/code/FAEP/src/FAEP/uav_simulator/so3_control/include/**",
+        "/home/zyh/zyh/code/FAEP/src/FAEP/uav_simulator/so3_disturbance_generator/include/**",
+        "/home/zyh/zyh/code/FAEP/src/FAEP/uav_simulator/so3_quadrotor_simulator/include/**",
+        "/home/zyh/zyh/code/FAEP/src/FAEP/faep_planner/traj_utils/include/**",
+        "/home/zyh/zyh/code/FAEP/src/FAEP/uav_simulator/Utils/uav_utils/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
