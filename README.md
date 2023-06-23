@@ -15,23 +15,14 @@ Our paper is published by IEEE Transactions on Industrial Electronics. Please ci
 
 ```
 @ARTICLE{10155653,
-
   author={Zhao, Yinghao and Yan, Li and Xie, Hong and Dai, Jicheng and Wei, Pengcheng},
-
   journal={IEEE Transactions on Industrial Electronics}, 
-
   title={Autonomous Exploration Method for Fast Unknown Environment Mapping by Using UAV Equipped with Limited FOV Sensor}, 
-
   year={2023},
-
   volume={},
-
   number={},
-
   pages={1-10},
-
   doi={10.1109/TIE.2023.3285921}}
-
 ```
 
 Please kindly star :star: this project if it helps you. We take great efforts to develope and maintain it.
